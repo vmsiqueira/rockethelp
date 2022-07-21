@@ -12,7 +12,12 @@ export function SignIn() {
   const { colors } = useTheme();
 
   return(
-    <VStack flex={1} alignItems="center" bg="gray.600" pt={24} px={8}>
+    <VStack 
+      flex={1} 
+      alignItems="center" 
+      bg="gray.600" pt={24} 
+      px={8}
+    >
       <Logo />
       
       <Heading color="gray.100" font-size="xl" mt={20} mb={6}>
