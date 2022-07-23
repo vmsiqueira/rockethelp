@@ -40,7 +40,7 @@ export function Order({ data, ...rest }: Props) {
           </HStack>
         </VStack>
 
-        <Circle bg="gray.500" h={12} mr={12}>
+        <Circle bg="gray.500" w={12} h={12} mr={12}>
           {
             data.status === 'closed'
             ? <CircleWavyCheck size={24} color={statusColor} />
